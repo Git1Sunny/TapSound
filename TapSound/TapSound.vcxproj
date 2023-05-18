@@ -148,6 +148,9 @@
     <Media Include="resources\up_WAV.wav" />
     <Media Include="resources\windows_WAV.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
