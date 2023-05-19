@@ -57,10 +57,10 @@
     <Media Include="resources\windows_WAV.wav">
       <Filter>资源文件</Filter>
     </Media>
-    <Media Include="resources\big_bracket_WAV.wav">
+    <Media Include="resources\zbig_bracket_WAV.wav">
       <Filter>资源文件</Filter>
     </Media>
-    <Media Include="resources\semicolon_WAV.wav">
+    <Media Include="resources\zsemicolon_WAV.wav">
       <Filter>资源文件</Filter>
     </Media>
   </ItemGroup>
@@ -68,5 +68,15 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TapSound.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

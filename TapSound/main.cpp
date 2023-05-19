@@ -12,8 +12,26 @@ using namespace std;
 int main()
 {
 	ShowWindow(GetForegroundWindow(), SW_HIDE);
+	INPUT inputs[4] = {};
+	ZeroMemory(inputs, sizeof(inputs));
+
+	inputs[0].type = INPUT_KEYBOARD;
+	inputs[0].ki.wVk = VK_LWIN;
+
+	inputs[1].type = INPUT_KEYBOARD;
+	inputs[1].ki.wVk = 0x44;
+
+	inputs[2].type = INPUT_KEYBOARD;
+	inputs[2].ki.wVk = 0x44;
+	inputs[2].ki.dwFlags = KEYEVENTF_KEYUP;
+
+	inputs[3].type = INPUT_KEYBOARD;
+	inputs[3].ki.wVk = VK_LWIN;
+	inputs[3].ki.dwFlags = KEYEVENTF_KEYUP;
+	UINT uSent = SendInput(ARRAYSIZE(inputs), inputs, sizeof(INPUT));
+
 	map<int, bool> keymap;
-	for (int i = 8; i < 254; i++ ) {
+	for (int i = 8; i < 254; i++) {
 		keymap.insert({ i,false });
 	}
 	while (true) {
@@ -31,7 +49,7 @@ int main()
 					break;
 				case VK_LCONTROL:
 				case VK_RCONTROL:
-					PlaySound(MAKEINTRESOURCE(IDR_WAVE12), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC );
+					PlaySound(MAKEINTRESOURCE(IDR_WAVE12), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
 					break;
 				case 0x43:
 					if (GetAsyncKeyState(VK_LCONTROL)) {
@@ -78,7 +96,7 @@ int main()
 				case 18:
 				case 164:
 				case VK_CAPITAL:
-					PlaySound(MAKEINTRESOURCE(IDR_WAVE2), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
+					PlaySound(MAKEINTRESOURCE(IDR_WAVE16), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
 					break;
 				case VK_RETURN:
 				case VK_SPACE:
@@ -93,13 +111,15 @@ int main()
 				case VK_RWIN:
 					PlaySound(MAKEINTRESOURCE(IDR_WAVE14), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
 					break;
+				case VK_UP:
+				case VK_DOWN:
 				case VK_LEFT:
+				case VK_RIGHT:
 					PlaySound(MAKEINTRESOURCE(IDR_WAVE7), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
 					break;
 				case VK_END:
 					return 0;
 				default:
-					
 					PlaySound(MAKEINTRESOURCE(IDR_WAVE8), GetModuleHandle(NULL), SND_RESOURCE | SND_ASYNC);
 					break;
 				}

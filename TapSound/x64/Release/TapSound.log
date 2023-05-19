@@ -1,7 +1,7 @@
-﻿生成启动时间为 2023/5/19 13:11:21。
+﻿生成启动时间为 2023/5/19 13:33:26。
 日志记录详细程度设置为: Normal。     1>项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
-         正在创建“x64\Release\TapSound.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+         正在对“x64\Release\TapSound.tlog\unsuccessfulbuild”执行 Touch 任务。
        ClCompile:
          G:\Visual Studio\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
@@ -25,4 +25,4 @@
     0 个警告
     0 个错误
 
-已用时间 00:00:01.20
+已用时间 00:00:01.16

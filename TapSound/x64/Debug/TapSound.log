@@ -1,62 +1,23 @@
-﻿生成启动时间为 2023/5/19 13:16:24。
+﻿生成启动时间为 2023/5/19 13:24:06。
 日志记录详细程度设置为: Normal。     1>项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
-         正在对“x64\Debug\TapSound.tlog\unsuccessfulbuild”执行 Touch 任务。
+         正在创建“x64\Debug\TapSound.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          G:\Visual Studio\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
          main.cpp
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(26,16): error C2065: “IDR_WAVE5”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(30,16): error C2065: “IDR_WAVE13”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(34,16): error C2065: “IDR_WAVE12”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(38,17): error C2065: “IDR_WAVE3”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(41,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(45,17): error C2065: “IDR_WAVE4”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(48,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(52,17): error C2065: “IDR_WAVE15”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(55,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(59,17): error C2065: “IDR_WAVE9”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(62,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(66,17): error C2065: “IDR_WAVE13”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(69,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(73,17): error C2065: “IDR_WAVE6”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(76,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(81,16): error C2065: “IDR_WAVE2”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(85,16): error C2065: “IDR_WAVE10”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(88,16): error C2065: “IDR_WAVE11”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(91,16): error C2065: “IDR_WAVE14”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(94,16): error C2065: “IDR_WAVE14”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(97,16): error C2065: “IDR_WAVE7”: 未声明的标识符
-     1>D:\Code\C++\TapSound\TapSound\main.cpp(103,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-     1>已完成生成项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”(Build 个目标)的操作 - 失败。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         G:\Visual Studio\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\C++\TapSound\TapSound\x64\Debug\TapSound.exe" /INCREMENTAL /ILK:"x64\Debug\TapSound.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Code\C++\TapSound\TapSound\x64\Debug\TapSound.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\C++\TapSound\TapSound\x64\Debug\TapSound.lib" /MACHINE:X64 x64\Debug\TapSound.res
+         x64\Debug\main.obj
+         TapSound.vcxproj -> D:\Code\C++\TapSound\TapSound\x64\Debug\TapSound.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\TapSound.tlog\unsuccessfulbuild”。
+         正在对“x64\Debug\TapSound.tlog\TapSound.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”(Build 个目标)的操作。
 
-生成失败。
-
-       “D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”(Build 目标) (1) ->
-       (ClCompile 目标) -> 
-         D:\Code\C++\TapSound\TapSound\main.cpp(26,16): error C2065: “IDR_WAVE5”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(30,16): error C2065: “IDR_WAVE13”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(34,16): error C2065: “IDR_WAVE12”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(38,17): error C2065: “IDR_WAVE3”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(41,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(45,17): error C2065: “IDR_WAVE4”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(48,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(52,17): error C2065: “IDR_WAVE15”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(55,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(59,17): error C2065: “IDR_WAVE9”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(62,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(66,17): error C2065: “IDR_WAVE13”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(69,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(73,17): error C2065: “IDR_WAVE6”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(76,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(81,16): error C2065: “IDR_WAVE2”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(85,16): error C2065: “IDR_WAVE10”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(88,16): error C2065: “IDR_WAVE11”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(91,16): error C2065: “IDR_WAVE14”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(94,16): error C2065: “IDR_WAVE14”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(97,16): error C2065: “IDR_WAVE7”: 未声明的标识符
-         D:\Code\C++\TapSound\TapSound\main.cpp(103,16): error C2065: “IDR_WAVE8”: 未声明的标识符
-
+已成功生成。
     0 个警告
-    22 个错误
+    0 个错误
 
-已用时间 00:00:00.56
+已用时间 00:00:01.07
