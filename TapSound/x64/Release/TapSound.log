@@ -1,0 +1,28 @@
+﻿生成启动时间为 2023/5/19 13:11:21。
+日志记录详细程度设置为: Normal。     1>项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\TapSound.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\Visual Studio\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         G:\Visual Studio\VC\Tools\MSVC\14.36.32532\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\C++\TapSound\TapSound\x64\Release\TapSound.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Code\C++\TapSound\TapSound\x64\Release\TapSound.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\TapSound.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\C++\TapSound\TapSound\x64\Release\TapSound.lib" /MACHINE:X64 x64\Release\TapSound.res
+         x64\Release\main.obj
+         正在生成代码
+         1 of 141 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         TapSound.vcxproj -> D:\Code\C++\TapSound\TapSound\x64\Release\TapSound.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\TapSound.tlog\unsuccessfulbuild”。
+         正在对“x64\Release\TapSound.tlog\TapSound.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Code\C++\TapSound\TapSound\TapSound.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.20

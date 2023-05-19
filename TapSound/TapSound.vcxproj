@@ -127,13 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="TapSound.rc" />
-  </ItemGroup>
-  <ItemGroup>
     <Media Include="resources\alt_WAV.wav" />
+    <Media Include="resources\big_bracket_WAV.wav" />
     <Media Include="resources\capslock_off_WAV.wav" />
     <Media Include="resources\ctrl_c_WAV.wav" />
     <Media Include="resources\ctrl_v_WAV.wav" />
@@ -142,6 +137,7 @@
     <Media Include="resources\left_WAV.wav" />
     <Media Include="resources\normal_type_WAV.wav" />
     <Media Include="resources\right_WAV.wav" />
+    <Media Include="resources\semicolon_WAV.wav" />
     <Media Include="resources\Space.wav" />
     <Media Include="resources\tab.wav" />
     <Media Include="resources\TOF.wav" />
